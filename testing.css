@@ -1,0 +1,24 @@
+body {
+	background-image: url"paper.gif";
+}
+h1 {
+	color: royalblue;
+	font-size: 50px;
+	font-display: block;
+}
+pre {
+	color: black;
+	font-size: 25px;
+	font-style: normal;
+}
+@media screen and (max-width:680px){
+
+	#maincontent{
+		width: auto;
+		float: none;
+	}
+	#sidebar{
+		width: auto;
+		float: none;
+	}
+}
